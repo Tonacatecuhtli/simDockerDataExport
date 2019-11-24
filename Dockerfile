@@ -5,3 +5,5 @@ FROM node:12
 WORKDIR /usr/src/
 RUN git clone https://github.com/Tonacatecuhtli/simDockerDataExport
 WORKDIR /usr/src/simDockerDataExport
+
+CMD echo "This is a test." | wc -
